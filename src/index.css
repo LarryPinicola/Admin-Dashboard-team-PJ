@@ -1,0 +1,278 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+*{
+  box-sizing: border-box;
+}
+
+ 
+
+.bg-color{
+  background-color: #ff6f61;
+}
+
+body{
+
+  background-color: #f7f8fb;
+
+}
+
+.avatar {
+
+  /* white-space: nowrap; */
+
+  border-radius: 50%;
+
+  position: relative;
+
+  cursor: pointer;
+
+  display: inline-flex;
+
+  font-size: 1rem;
+
+  text-align: center;
+
+  vertical-align: middle;
+
+  width: 60px;
+
+  height: 60px;
+
+  margin-left: -1.5rem;
+
+ 
+
+};
+tbody tr:nth-child(odd){background-color: #f2f2f2};
+
+ 
+
+.divide-line{
+
+    display: flex;
+
+    flex-direction: row;
+
+    font-size: .875rem;
+
+    font-weight: 400;
+
+}
+
+ 
+
+.divide-line::before{
+
+content: "";
+
+border-bottom: 1px solid #c7d0d9;
+
+flex: 1 1;
+
+margin: auto;
+
+}
+
+ 
+
+.divide-line::after{
+
+ content: "";
+
+ border-bottom: 1px solid #c7d0d9;
+
+ flex: 1 1;
+
+ margin: auto;
+
+}
+
+ 
+
+.margin-left-5{
+
+    margin-left: 5px !important;
+
+}
+
+ 
+
+#root{
+
+  height: 100vh;
+
+  background-color: #F7F8FB;
+
+}
+
+ 
+
+.week-input{
+
+  border: 1px solid #D6DADF !important;
+
+}
+
+ 
+
+.week-input:focus{
+
+    border: 2px solid #D6DADF;
+
+}
+
+ 
+
+.home-dropdown{
+
+  background-color: #ffffff;
+
+}
+
+ 
+
+input[type ='checkbox']:checked{
+
+  color: #ff6f61;
+}
+
+.bgColor{
+
+  background-color: #F7F8FB;
+
+}
+
+.text-card-svg{
+  image-rendering: auto;
+  height: auto;
+  max-width: 100%;
+  padding-top: -2.5rem;
+}
+
+.bgColor{
+  background-color: #F7F8FB;
+}
+.bgWhite{
+
+  background-color: #ffffff !important;
+
+}
+
+ 
+
+.text-muted{
+
+  color: #6b859e;
+
+}
+
+ 
+
+.bgPrimary{
+  background-color:  rgb(77, 83, 224);
+}
+
+ 
+
+.text-fs1{
+  font-size: .875rem ;
+}
+
+ 
+
+.head1{
+  font-size: 1rem;
+}
+
+ 
+
+.head2{
+  font-size: 1.25rem;
+  font-weight: 600;
+}
+
+ 
+
+.head3{
+  font-size: 1.875rem;
+  font-weight: 600;
+}
+
+ 
+
+.hover-primary-btn:hover{
+
+    background-color: #2C34DA;
+
+}
+
+
+
+
+.upgrade-btn:hover{
+
+  background-color: #495057;
+
+  color: white ;
+
+}
+
+ 
+
+.noti::after{
+
+  content: '';
+
+  position: absolute;
+
+  width: 5px;
+
+  height: 5px;
+
+  background-color: #FF5668;
+
+  border-radius: 50%;
+
+  top: 0;
+
+  right: 0;
+
+}
+
+.chris{
+  z-index: 3;
+}
+.use{
+  z-index: 1;
+}
+.user-img{
+  width: 150px;
+    height: 150px;
+    box-sizing: border-box;
+    overflow-clip-margin: content-box;
+    overflow: clip;
+}
+
+.active{
+  background-color: #ff6f61;
+  color: #f7f8fb;
+}
+
+.breadcrumb-link {
+  /* Add styles for breadcrumb links here */
+  text-decoration: none;
+  
+}
+
+.breadcrumb-link:hover {
+  /* Add hover styles for breadcrumb links here */
+}
+
+.breadcrumb-link.active2 {
+  text-decoration: underline; 
+  color: #ff6f61;
+}
